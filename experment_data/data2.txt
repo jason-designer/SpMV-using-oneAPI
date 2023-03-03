@@ -1,0 +1,105 @@
+
+########################################################################
+#      Date:           Mon 26 Dec 2022 08:49:33 PM PST
+#    Job ID:           2105895.v-qsvr-1.aidevcloud
+#      User:           u173946
+# Resources:           cput=75:00:00,neednodes=1:gpu:ppn=2,nodes=1:gpu:ppn=2,walltime=06:00:00
+########################################################################
+
+## u173946 is compiling DPCPP_Essentials Module1 -- oneAPI Intro sample - 1 of 1 simple.cpp
+Device: Intel(R) UHD Graphics [0x9a60]
+local_mem_size: 65536
+Compute units: 32
+Work group size: 512
+Supported Sub-Group Sizes : 8 16 32 
+nonzero: 5120000, numRows: 10000, mean: 512, LightSpMV2: 0.00447833 sec.
+nonzero: 5120000, numRows: 10000, mean: 512, LightSpMV4: 0.00334417 sec.
+nonzero: 5120000, numRows: 10000, mean: 512, LightSpMV8: 0.00321134 sec.
+nonzero: 5120000, numRows: 10000, mean: 512, LightSpMV16: 0.00326638 sec.
+nonzero: 5120000, numRows: 10000, mean: 512, LightSpMV32: 0.00360486 sec.
+nonzero: 5440000, numRows: 10000, mean: 544, LightSpMV2: 0.00469198 sec.
+nonzero: 5440000, numRows: 10000, mean: 544, LightSpMV4: 0.00352409 sec.
+nonzero: 5440000, numRows: 10000, mean: 544, LightSpMV8: 0.00335391 sec.
+nonzero: 5440000, numRows: 10000, mean: 544, LightSpMV16: 0.00342843 sec.
+nonzero: 5440000, numRows: 10000, mean: 544, LightSpMV32: 0.00374544 sec.
+nonzero: 5760000, numRows: 10000, mean: 576, LightSpMV2: 0.0050024 sec.
+nonzero: 5760000, numRows: 10000, mean: 576, LightSpMV4: 0.00372512 sec.
+nonzero: 5760000, numRows: 10000, mean: 576, LightSpMV8: 0.0035497 sec.
+nonzero: 5760000, numRows: 10000, mean: 576, LightSpMV16: 0.00362166 sec.
+nonzero: 5760000, numRows: 10000, mean: 576, LightSpMV32: 0.00393706 sec.
+nonzero: 6080000, numRows: 10000, mean: 608, LightSpMV2: 0.00525329 sec.
+nonzero: 6080000, numRows: 10000, mean: 608, LightSpMV4: 0.00391016 sec.
+nonzero: 6080000, numRows: 10000, mean: 608, LightSpMV8: 0.00372659 sec.
+nonzero: 6080000, numRows: 10000, mean: 608, LightSpMV16: 0.00376907 sec.
+nonzero: 6080000, numRows: 10000, mean: 608, LightSpMV32: 0.00409462 sec.
+nonzero: 6400000, numRows: 10000, mean: 640, LightSpMV2: 0.00555563 sec.
+nonzero: 6400000, numRows: 10000, mean: 640, LightSpMV4: 0.00410334 sec.
+nonzero: 6400000, numRows: 10000, mean: 640, LightSpMV8: 0.00389933 sec.
+nonzero: 6400000, numRows: 10000, mean: 640, LightSpMV16: 0.00394761 sec.
+nonzero: 6400000, numRows: 10000, mean: 640, LightSpMV32: 0.00428323 sec.
+nonzero: 6720000, numRows: 10000, mean: 672, LightSpMV2: 0.00582575 sec.
+nonzero: 6720000, numRows: 10000, mean: 672, LightSpMV4: 0.00430787 sec.
+nonzero: 6720000, numRows: 10000, mean: 672, LightSpMV8: 0.00407855 sec.
+nonzero: 6720000, numRows: 10000, mean: 672, LightSpMV16: 0.00411911 sec.
+nonzero: 6720000, numRows: 10000, mean: 672, LightSpMV32: 0.00443842 sec.
+nonzero: 7040000, numRows: 10000, mean: 704, LightSpMV2: 0.00611651 sec.
+nonzero: 7040000, numRows: 10000, mean: 704, LightSpMV4: 0.00448425 sec.
+nonzero: 7040000, numRows: 10000, mean: 704, LightSpMV8: 0.00426309 sec.
+nonzero: 7040000, numRows: 10000, mean: 704, LightSpMV16: 0.00429793 sec.
+nonzero: 7040000, numRows: 10000, mean: 704, LightSpMV32: 0.00462493 sec.
+nonzero: 7360000, numRows: 10000, mean: 736, LightSpMV2: 0.00632997 sec.
+nonzero: 7360000, numRows: 10000, mean: 736, LightSpMV4: 0.00468645 sec.
+nonzero: 7360000, numRows: 10000, mean: 736, LightSpMV8: 0.00442973 sec.
+nonzero: 7360000, numRows: 10000, mean: 736, LightSpMV16: 0.00445312 sec.
+nonzero: 7360000, numRows: 10000, mean: 736, LightSpMV32: 0.00479439 sec.
+nonzero: 7680000, numRows: 10000, mean: 768, LightSpMV2: 0.00659222 sec.
+nonzero: 7680000, numRows: 10000, mean: 768, LightSpMV4: 0.00487091 sec.
+nonzero: 7680000, numRows: 10000, mean: 768, LightSpMV8: 0.00459967 sec.
+nonzero: 7680000, numRows: 10000, mean: 768, LightSpMV16: 0.00462233 sec.
+nonzero: 7680000, numRows: 10000, mean: 768, LightSpMV32: 0.00494451 sec.
+nonzero: 8000000, numRows: 10000, mean: 800, LightSpMV2: 0.00689615 sec.
+nonzero: 8000000, numRows: 10000, mean: 800, LightSpMV4: 0.0051281 sec.
+nonzero: 8000000, numRows: 10000, mean: 800, LightSpMV8: 0.00482761 sec.
+nonzero: 8000000, numRows: 10000, mean: 800, LightSpMV16: 0.00484394 sec.
+nonzero: 8000000, numRows: 10000, mean: 800, LightSpMV32: 0.00511825 sec.
+nonzero: 8320000, numRows: 10000, mean: 832, LightSpMV2: 0.00710045 sec.
+nonzero: 8320000, numRows: 10000, mean: 832, LightSpMV4: 0.00525985 sec.
+nonzero: 8320000, numRows: 10000, mean: 832, LightSpMV8: 0.00494402 sec.
+nonzero: 8320000, numRows: 10000, mean: 832, LightSpMV16: 0.0049524 sec.
+nonzero: 8320000, numRows: 10000, mean: 832, LightSpMV32: 0.00526718 sec.
+nonzero: 8640000, numRows: 10000, mean: 864, LightSpMV2: 0.00735935 sec.
+nonzero: 8640000, numRows: 10000, mean: 864, LightSpMV4: 0.00548821 sec.
+nonzero: 8640000, numRows: 10000, mean: 864, LightSpMV8: 0.00514108 sec.
+nonzero: 8640000, numRows: 10000, mean: 864, LightSpMV16: 0.00512134 sec.
+nonzero: 8640000, numRows: 10000, mean: 864, LightSpMV32: 0.00543913 sec.
+nonzero: 8960000, numRows: 10000, mean: 896, LightSpMV2: 0.0076083 sec.
+nonzero: 8960000, numRows: 10000, mean: 896, LightSpMV4: 0.00562825 sec.
+nonzero: 8960000, numRows: 10000, mean: 896, LightSpMV8: 0.00527952 sec.
+nonzero: 8960000, numRows: 10000, mean: 896, LightSpMV16: 0.00526619 sec.
+nonzero: 8960000, numRows: 10000, mean: 896, LightSpMV32: 0.00559596 sec.
+nonzero: 9280000, numRows: 10000, mean: 928, LightSpMV2: 0.0079202 sec.
+nonzero: 9280000, numRows: 10000, mean: 928, LightSpMV4: 0.00590816 sec.
+nonzero: 9280000, numRows: 10000, mean: 928, LightSpMV8: 0.00552316 sec.
+nonzero: 9280000, numRows: 10000, mean: 928, LightSpMV16: 0.00548133 sec.
+nonzero: 9280000, numRows: 10000, mean: 928, LightSpMV32: 0.00579294 sec.
+nonzero: 9600000, numRows: 10000, mean: 960, LightSpMV2: 0.00812843 sec.
+nonzero: 9600000, numRows: 10000, mean: 960, LightSpMV4: 0.00604067 sec.
+nonzero: 9600000, numRows: 10000, mean: 960, LightSpMV8: 0.00562891 sec.
+nonzero: 9600000, numRows: 10000, mean: 960, LightSpMV16: 0.00559654 sec.
+nonzero: 9600000, numRows: 10000, mean: 960, LightSpMV32: 0.00591597 sec.
+nonzero: 9920000, numRows: 10000, mean: 992, LightSpMV2: 0.00854824 sec.
+nonzero: 9920000, numRows: 10000, mean: 992, LightSpMV4: 0.00640099 sec.
+nonzero: 9920000, numRows: 10000, mean: 992, LightSpMV8: 0.00597966 sec.
+nonzero: 9920000, numRows: 10000, mean: 992, LightSpMV16: 0.00588557 sec.
+nonzero: 9920000, numRows: 10000, mean: 992, LightSpMV32: 0.00620249 sec.
+nonzero: 10240000, numRows: 10000, mean: 1024, LightSpMV2: 0.0086265 sec.
+nonzero: 10240000, numRows: 10000, mean: 1024, LightSpMV4: 0.00645218 sec.
+nonzero: 10240000, numRows: 10000, mean: 1024, LightSpMV8: 0.00596686 sec.
+nonzero: 10240000, numRows: 10000, mean: 1024, LightSpMV16: 0.00591689 sec.
+nonzero: 10240000, numRows: 10000, mean: 1024, LightSpMV32: 0.00623354 sec.
+
+########################################################################
+# End of output for job 2105895.v-qsvr-1.aidevcloud
+# Date: Mon 26 Dec 2022 08:52:53 PM PST
+########################################################################
+

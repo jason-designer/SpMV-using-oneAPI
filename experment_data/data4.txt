@@ -1,0 +1,65 @@
+
+########################################################################
+#      Date:           Mon 26 Dec 2022 09:02:01 PM PST
+#    Job ID:           2105903.v-qsvr-1.aidevcloud
+#      User:           u173946
+# Resources:           cput=75:00:00,neednodes=1:gpu:ppn=2,nodes=1:gpu:ppn=2,walltime=06:00:00
+########################################################################
+
+## u173946 is compiling DPCPP_Essentials Module1 -- oneAPI Intro sample - 1 of 1 simple.cpp
+Device: Intel(R) UHD Graphics [0x9a60]
+local_mem_size: 65536
+Compute units: 32
+Work group size: 512
+Supported Sub-Group Sizes : 8 16 32 
+nonzero: 10240000, numRows: 10000, mean: 1024, LightSpMV2: 0.00866381 sec.
+nonzero: 10240000, numRows: 10000, mean: 1024, LightSpMV4: 0.00648592 sec.
+nonzero: 10240000, numRows: 10000, mean: 1024, LightSpMV8: 0.00601489 sec.
+nonzero: 10240000, numRows: 10000, mean: 1024, LightSpMV16: 0.00594384 sec.
+nonzero: 10240000, numRows: 10000, mean: 1024, LightSpMV32: 0.0062693 sec.
+nonzero: 11520000, numRows: 10000, mean: 1152, LightSpMV2: 0.00962952 sec.
+nonzero: 11520000, numRows: 10000, mean: 1152, LightSpMV4: 0.00725059 sec.
+nonzero: 11520000, numRows: 10000, mean: 1152, LightSpMV8: 0.00669078 sec.
+nonzero: 11520000, numRows: 10000, mean: 1152, LightSpMV16: 0.00659499 sec.
+nonzero: 11520000, numRows: 10000, mean: 1152, LightSpMV32: 0.00690997 sec.
+nonzero: 12800000, numRows: 10000, mean: 1280, LightSpMV2: 0.0106774 sec.
+nonzero: 12800000, numRows: 10000, mean: 1280, LightSpMV4: 0.00802107 sec.
+nonzero: 12800000, numRows: 10000, mean: 1280, LightSpMV8: 0.00739187 sec.
+nonzero: 12800000, numRows: 10000, mean: 1280, LightSpMV16: 0.00729353 sec.
+nonzero: 12800000, numRows: 10000, mean: 1280, LightSpMV32: 0.00758869 sec.
+nonzero: 14080000, numRows: 10000, mean: 1408, LightSpMV2: 0.0117392 sec.
+nonzero: 14080000, numRows: 10000, mean: 1408, LightSpMV4: 0.00886332 sec.
+nonzero: 14080000, numRows: 10000, mean: 1408, LightSpMV8: 0.00816729 sec.
+nonzero: 14080000, numRows: 10000, mean: 1408, LightSpMV16: 0.00798321 sec.
+nonzero: 14080000, numRows: 10000, mean: 1408, LightSpMV32: 0.00825477 sec.
+nonzero: 15360000, numRows: 10000, mean: 1536, LightSpMV2: 0.0126415 sec.
+nonzero: 15360000, numRows: 10000, mean: 1536, LightSpMV4: 0.00958653 sec.
+nonzero: 15360000, numRows: 10000, mean: 1536, LightSpMV8: 0.00880141 sec.
+nonzero: 15360000, numRows: 10000, mean: 1536, LightSpMV16: 0.00857897 sec.
+nonzero: 15360000, numRows: 10000, mean: 1536, LightSpMV32: 0.00886667 sec.
+nonzero: 16640000, numRows: 10000, mean: 1664, LightSpMV2: 0.0140597 sec.
+nonzero: 16640000, numRows: 10000, mean: 1664, LightSpMV4: 0.0107307 sec.
+nonzero: 16640000, numRows: 10000, mean: 1664, LightSpMV8: 0.00992936 sec.
+nonzero: 16640000, numRows: 10000, mean: 1664, LightSpMV16: 0.00959745 sec.
+nonzero: 16640000, numRows: 10000, mean: 1664, LightSpMV32: 0.00978379 sec.
+nonzero: 17920000, numRows: 10000, mean: 1792, LightSpMV2: 0.0147243 sec.
+nonzero: 17920000, numRows: 10000, mean: 1792, LightSpMV4: 0.0111691 sec.
+nonzero: 17920000, numRows: 10000, mean: 1792, LightSpMV8: 0.0103178 sec.
+nonzero: 17920000, numRows: 10000, mean: 1792, LightSpMV16: 0.0100148 sec.
+nonzero: 17920000, numRows: 10000, mean: 1792, LightSpMV32: 0.0102068 sec.
+nonzero: 19200000, numRows: 10000, mean: 1920, LightSpMV2: 0.0157046 sec.
+nonzero: 19200000, numRows: 10000, mean: 1920, LightSpMV4: 0.0118956 sec.
+nonzero: 19200000, numRows: 10000, mean: 1920, LightSpMV8: 0.0110192 sec.
+nonzero: 19200000, numRows: 10000, mean: 1920, LightSpMV16: 0.0106054 sec.
+nonzero: 19200000, numRows: 10000, mean: 1920, LightSpMV32: 0.0107834 sec.
+nonzero: 20480000, numRows: 10000, mean: 2048, LightSpMV2: 0.0166638 sec.
+nonzero: 20480000, numRows: 10000, mean: 2048, LightSpMV4: 0.012618 sec.
+nonzero: 20480000, numRows: 10000, mean: 2048, LightSpMV8: 0.0117448 sec.
+nonzero: 20480000, numRows: 10000, mean: 2048, LightSpMV16: 0.0112261 sec.
+nonzero: 20480000, numRows: 10000, mean: 2048, LightSpMV32: 0.0113571 sec.
+
+########################################################################
+# End of output for job 2105903.v-qsvr-1.aidevcloud
+# Date: Mon 26 Dec 2022 09:06:19 PM PST
+########################################################################
+
